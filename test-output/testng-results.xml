@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="12" passed="12" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-09-28T09:35:12 EDT" name="Suite1" finished-at="2022-09-28T09:36:39 EDT" duration-ms="87224">
+    <groups>
+    </groups>
+    <test started-at="2022-09-28T09:35:12 EDT" name="Regression" finished-at="2022-09-28T09:35:54 EDT" duration-ms="41943">
+      <class name="Com.Salesforce.test.tests.AutomationScripts">
+        <test-method is-config="true" signature="setupBeforeTest()[pri:0, instance:Com.Salesforce.test.tests.AutomationScripts@14bdbc74]" started-at="2022-09-28T09:35:12 EDT" name="setupBeforeTest" finished-at="2022-09-28T09:35:12 EDT" duration-ms="220" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBeforeTest -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:Com.Salesforce.test.tests.AutomationScripts@14bdbc74]" started-at="2022-09-28T09:35:12 EDT" name="setUp" finished-at="2022-09-28T09:35:16 EDT" duration-ms="3711" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void Com.Salesforce.test.tests.AutomationScripts.logoutFromSalesForce09() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="logoutFromSalesForce09()[pri:0, instance:Com.Salesforce.test.tests.AutomationScripts@14bdbc74]" started-at="2022-09-28T09:35:16 EDT" name="logoutFromSalesForce09" finished-at="2022-09-28T09:35:23 EDT" duration-ms="6681" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromSalesForce09 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Com.Salesforce.test.tests.AutomationScripts@14bdbc74]" started-at="2022-09-28T09:35:23 EDT" name="tearDown" finished-at="2022-09-28T09:35:23 EDT" duration-ms="148" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:Com.Salesforce.test.tests.AutomationScripts@14bdbc74]" started-at="2022-09-28T09:35:23 EDT" name="setUp" finished-at="2022-09-28T09:35:25 EDT" duration-ms="1806" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void Com.Salesforce.test.tests.AutomationScripts.loginwithvalidCredentials02() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginwithvalidCredentials02()[pri:0, instance:Com.Salesforce.test.tests.AutomationScripts@14bdbc74]" started-at="2022-09-28T09:35:25 EDT" name="loginwithvalidCredentials02" finished-at="2022-09-28T09:35:33 EDT" duration-ms="8623" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginwithvalidCredentials02 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Com.Salesforce.test.tests.AutomationScripts@14bdbc74]" started-at="2022-09-28T09:35:33 EDT" name="tearDown" finished-at="2022-09-28T09:35:33 EDT" duration-ms="118" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:Com.Salesforce.test.tests.AutomationScripts@14bdbc74]" started-at="2022-09-28T09:35:33 EDT" name="setUp" finished-at="2022-09-28T09:35:35 EDT" duration-ms="2015" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void Com.Salesforce.test.tests.AutomationScripts.loginErrorMessage01() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginErrorMessage01()[pri:0, instance:Com.Salesforce.test.tests.AutomationScripts@14bdbc74]" started-at="2022-09-28T09:35:35 EDT" name="loginErrorMessage01" finished-at="2022-09-28T09:35:37 EDT" duration-ms="1793" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginErrorMessage01 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Com.Salesforce.test.tests.AutomationScripts@14bdbc74]" started-at="2022-09-28T09:35:37 EDT" name="tearDown" finished-at="2022-09-28T09:35:37 EDT" duration-ms="128" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:Com.Salesforce.test.tests.AutomationScripts@14bdbc74]" started-at="2022-09-28T09:35:37 EDT" name="setUp" finished-at="2022-09-28T09:35:39 EDT" duration-ms="1937" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void Com.Salesforce.test.tests.AutomationScripts.checkRememberMe03() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="checkRememberMe03()[pri:0, instance:Com.Salesforce.test.tests.AutomationScripts@14bdbc74]" started-at="2022-09-28T09:35:39 EDT" name="checkRememberMe03" finished-at="2022-09-28T09:35:46 EDT" duration-ms="6601" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkRememberMe03 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Com.Salesforce.test.tests.AutomationScripts@14bdbc74]" started-at="2022-09-28T09:35:46 EDT" name="tearDown" finished-at="2022-09-28T09:35:46 EDT" duration-ms="126" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:Com.Salesforce.test.tests.AutomationScripts@14bdbc74]" started-at="2022-09-28T09:35:46 EDT" name="setUp" finished-at="2022-09-28T09:35:48 EDT" duration-ms="1641" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void Com.Salesforce.test.tests.AutomationScripts.forgotPassword4A()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="forgotPassword4A()[pri:0, instance:Com.Salesforce.test.tests.AutomationScripts@14bdbc74]" started-at="2022-09-28T09:35:48 EDT" name="forgotPassword4A" finished-at="2022-09-28T09:35:50 EDT" duration-ms="1775" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forgotPassword4A -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Com.Salesforce.test.tests.AutomationScripts@14bdbc74]" started-at="2022-09-28T09:35:50 EDT" name="tearDown" finished-at="2022-09-28T09:35:50 EDT" duration-ms="127" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:Com.Salesforce.test.tests.AutomationScripts@14bdbc74]" started-at="2022-09-28T09:35:50 EDT" name="setUp" finished-at="2022-09-28T09:35:51 EDT" duration-ms="1691" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void Com.Salesforce.test.tests.AutomationScripts.wrongCredential4B() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="wrongCredential4B()[pri:0, instance:Com.Salesforce.test.tests.AutomationScripts@14bdbc74]" started-at="2022-09-28T09:35:51 EDT" name="wrongCredential4B" finished-at="2022-09-28T09:35:53 EDT" duration-ms="2134" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wrongCredential4B -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Com.Salesforce.test.tests.AutomationScripts@14bdbc74]" started-at="2022-09-28T09:35:53 EDT" name="tearDown" finished-at="2022-09-28T09:35:54 EDT" duration-ms="98" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="teardownAfterTest()[pri:0, instance:Com.Salesforce.test.tests.AutomationScripts@14bdbc74]" started-at="2022-09-28T09:35:54 EDT" name="teardownAfterTest" finished-at="2022-09-28T09:35:54 EDT" duration-ms="492" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownAfterTest -->
+      </class> <!-- Com.Salesforce.test.tests.AutomationScripts -->
+    </test> <!-- Regression -->
+    <test started-at="2022-09-28T09:35:54 EDT" name="Regression1" finished-at="2022-09-28T09:36:39 EDT" duration-ms="45268">
+      <class name="Com.Salesforce.test.tests.AutomationScripts">
+        <test-method is-config="true" signature="setupBeforeTest()[pri:0, instance:Com.Salesforce.test.tests.AutomationScripts@6cc4cdb9]" started-at="2022-09-28T09:35:54 EDT" name="setupBeforeTest" finished-at="2022-09-28T09:35:54 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBeforeTest -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:Com.Salesforce.test.tests.AutomationScripts@6cc4cdb9]" started-at="2022-09-28T09:35:54 EDT" name="setUp" finished-at="2022-09-28T09:35:58 EDT" duration-ms="4261" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void Com.Salesforce.test.tests.AutomationScripts.logoutFromSalesForce09() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="logoutFromSalesForce09()[pri:0, instance:Com.Salesforce.test.tests.AutomationScripts@6cc4cdb9]" started-at="2022-09-28T09:35:58 EDT" name="logoutFromSalesForce09" finished-at="2022-09-28T09:36:02 EDT" duration-ms="3394" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromSalesForce09 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Com.Salesforce.test.tests.AutomationScripts@6cc4cdb9]" started-at="2022-09-28T09:36:02 EDT" name="tearDown" finished-at="2022-09-28T09:36:03 EDT" duration-ms="1002" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:Com.Salesforce.test.tests.AutomationScripts@6cc4cdb9]" started-at="2022-09-28T09:36:03 EDT" name="setUp" finished-at="2022-09-28T09:36:07 EDT" duration-ms="3834" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void Com.Salesforce.test.tests.AutomationScripts.loginwithvalidCredentials02() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginwithvalidCredentials02()[pri:0, instance:Com.Salesforce.test.tests.AutomationScripts@6cc4cdb9]" started-at="2022-09-28T09:36:07 EDT" name="loginwithvalidCredentials02" finished-at="2022-09-28T09:36:09 EDT" duration-ms="2801" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginwithvalidCredentials02 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Com.Salesforce.test.tests.AutomationScripts@6cc4cdb9]" started-at="2022-09-28T09:36:09 EDT" name="tearDown" finished-at="2022-09-28T09:36:10 EDT" duration-ms="1088" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:Com.Salesforce.test.tests.AutomationScripts@6cc4cdb9]" started-at="2022-09-28T09:36:10 EDT" name="setUp" finished-at="2022-09-28T09:36:14 EDT" duration-ms="4025" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void Com.Salesforce.test.tests.AutomationScripts.loginErrorMessage01() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginErrorMessage01()[pri:0, instance:Com.Salesforce.test.tests.AutomationScripts@6cc4cdb9]" started-at="2022-09-28T09:36:14 EDT" name="loginErrorMessage01" finished-at="2022-09-28T09:36:15 EDT" duration-ms="960" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginErrorMessage01 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Com.Salesforce.test.tests.AutomationScripts@6cc4cdb9]" started-at="2022-09-28T09:36:15 EDT" name="tearDown" finished-at="2022-09-28T09:36:16 EDT" duration-ms="817" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:Com.Salesforce.test.tests.AutomationScripts@6cc4cdb9]" started-at="2022-09-28T09:36:16 EDT" name="setUp" finished-at="2022-09-28T09:36:21 EDT" duration-ms="5083" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void Com.Salesforce.test.tests.AutomationScripts.checkRememberMe03() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="checkRememberMe03()[pri:0, instance:Com.Salesforce.test.tests.AutomationScripts@6cc4cdb9]" started-at="2022-09-28T09:36:21 EDT" name="checkRememberMe03" finished-at="2022-09-28T09:36:26 EDT" duration-ms="4919" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkRememberMe03 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Com.Salesforce.test.tests.AutomationScripts@6cc4cdb9]" started-at="2022-09-28T09:36:26 EDT" name="tearDown" finished-at="2022-09-28T09:36:27 EDT" duration-ms="1045" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:Com.Salesforce.test.tests.AutomationScripts@6cc4cdb9]" started-at="2022-09-28T09:36:27 EDT" name="setUp" finished-at="2022-09-28T09:36:31 EDT" duration-ms="3981" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void Com.Salesforce.test.tests.AutomationScripts.forgotPassword4A()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="forgotPassword4A()[pri:0, instance:Com.Salesforce.test.tests.AutomationScripts@6cc4cdb9]" started-at="2022-09-28T09:36:31 EDT" name="forgotPassword4A" finished-at="2022-09-28T09:36:32 EDT" duration-ms="1065" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forgotPassword4A -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Com.Salesforce.test.tests.AutomationScripts@6cc4cdb9]" started-at="2022-09-28T09:36:32 EDT" name="tearDown" finished-at="2022-09-28T09:36:33 EDT" duration-ms="1024" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:Com.Salesforce.test.tests.AutomationScripts@6cc4cdb9]" started-at="2022-09-28T09:36:33 EDT" name="setUp" finished-at="2022-09-28T09:36:38 EDT" duration-ms="4279" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void Com.Salesforce.test.tests.AutomationScripts.wrongCredential4B() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="wrongCredential4B()[pri:0, instance:Com.Salesforce.test.tests.AutomationScripts@6cc4cdb9]" started-at="2022-09-28T09:36:38 EDT" name="wrongCredential4B" finished-at="2022-09-28T09:36:38 EDT" duration-ms="679" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wrongCredential4B -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Com.Salesforce.test.tests.AutomationScripts@6cc4cdb9]" started-at="2022-09-28T09:36:38 EDT" name="tearDown" finished-at="2022-09-28T09:36:39 EDT" duration-ms="945" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="teardownAfterTest()[pri:0, instance:Com.Salesforce.test.tests.AutomationScripts@6cc4cdb9]" started-at="2022-09-28T09:36:39 EDT" name="teardownAfterTest" finished-at="2022-09-28T09:36:39 EDT" duration-ms="48" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownAfterTest -->
+      </class> <!-- Com.Salesforce.test.tests.AutomationScripts -->
+    </test> <!-- Regression1 -->
+  </suite> <!-- Suite1 -->
+</testng-results>

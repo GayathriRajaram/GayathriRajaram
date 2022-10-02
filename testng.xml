@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite1">
+  <test name="Regression">
+  <parameter name="browsername" value="chrome"/>
+    <classes>
+      <class name="Com.Salesforce.test.tests.AutomationScripts">
+      <methods>
+      <include name="logoutFromSalesForce09"></include>
+      <include name="loginwithvalidCredentials02"></include>
+       <include name="loginErrorMessage01"></include>
+       <include name="checkRememberMe03"></include>
+       <include name="forgotPassword4A"></include>
+      <include name="wrongCredential4B"></include>
+            
+        <exclude name="  " />
+        <exclude name="" />
+        <exclude name="" />
+         <exclude name="" /> 
+      </methods>
+      </class>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Regression1">
+  <parameter name="browsername" value="firefox"/>
+    <classes>
+      <class name="Com.Salesforce.test.tests.AutomationScripts">
+      <methods>
+      <include name="logoutFromSalesForce09"></include>
+      <include name="loginwithvalidCredentials02"></include>
+       <include name="loginErrorMessage01"></include>
+       <include name="checkRememberMe03"></include>
+       <include name="forgotPassword4A"></include>
+      <include name="wrongCredential4B"></include>
+            
+        <exclude name="  " />
+        <exclude name="" />
+        <exclude name="" />
+         <exclude name="" /> 
+      </methods>
+      </class>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

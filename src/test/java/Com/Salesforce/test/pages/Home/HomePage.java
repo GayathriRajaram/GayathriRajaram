@@ -43,23 +43,15 @@ public class HomePage extends BasePage{
 	}
     public String GetTextFromHometabElement() {
 		String text=readText(Hometab, "text form field");
-		String path=captureWebElementScreenshot(Hometab, "Homelogintext");
-		try {
-			report.attachScreeshot(path);
-		} catch (IOException e) {
-			report.logTestFailedWithException(e);
-		}
+		captureWebElementScreenshot(Hometab, "Homelogintext");
+		
 		return text;
 	}
     public String GetTextlogouttitleElement() {
     	waitUntilVisible(logouttitle,"logouttitle");
     	String text=readText(logouttitle, "text form field");
-		String path=captureWebElementScreenshot(logouttitle, "logouttitle");
-		try {
-			report.attachScreeshot(path);
-		} catch (IOException e) {
-			report.logTestFailedWithException(e);
-		}
+		captureWebElementScreenshot(logouttitle, "logouttitle");
+		
 		return text;
 		 
 	}

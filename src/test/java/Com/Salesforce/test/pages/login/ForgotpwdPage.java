@@ -34,12 +34,8 @@ public class ForgotpwdPage extends BasePage{
       }
       public String gettextFromforgotpwdpage() {
   		String text=readText(forgorgotpwdmsg, "text form field");
-  		String path=captureWebElementScreenshot(forgorgotpwdmsg, "forgorgotpwdmsg");
-  		try {
-  			report.attachScreeshot(path);
-  		} catch (IOException e) {
-  			report.logTestFailedWithException(e);
-  		}
+  		captureWebElementScreenshot(forgorgotpwdmsg, "forgorgotpwdmsg");
+  		
   		return text;
   	}
 

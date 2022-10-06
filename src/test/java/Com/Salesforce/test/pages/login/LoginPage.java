@@ -19,7 +19,6 @@ public class LoginPage extends BasePage{
 	@FindBy(xpath="//div[@id='error']") WebElement loginerrormsg;
 	
 	public LoginPage(WebDriver driver) {
-		
 		super(driver);
 	}
 	
@@ -45,6 +44,10 @@ public class LoginPage extends BasePage{
 		enterPassword(password);
 		clickLoginButton();
 	}
+	public  void clearpwd() {
+		clearElement(password,"password");
+
+	}
 	
 	public void loginwithnopwd(String usrname,String password) {
 		enterUserName(usrname);
@@ -56,7 +59,7 @@ public class LoginPage extends BasePage{
 	public void clickrememberme() {
 		clickElement(rememberme,"rememberme");
 	}
-	private void clearpassword(String password2) {
+	public void clearpassword(String password2) {
 		waitUntilVisible(password,"password field");
 		clearElement(password, password2);
 	}
@@ -68,22 +71,13 @@ public class LoginPage extends BasePage{
 	}
 	public String gettextFromloginpage() {
 		String text=readText(loginerrormsg, "text form field");
-		String path=captureWebElementScreenshot(loginerrormsg, "loginerrormsg");
-		try {
-			report.attachScreeshot(path);
-		} catch (IOException e) {
-			report.logTestFailedWithException(e);
-		}
-		return text;
+		captureWebElementScreenshot(loginerrormsg, "loginerrormsg");
+				return text;
 	}
 	public String gettextFromID() {
 		String text=readText(ID, "text form field");
-		String path=captureWebElementScreenshot(ID, "ID");
-		try {
-			report.attachScreeshot(path);
-		} catch (IOException e) {
-			report.logTestFailedWithException(e);
-		}
+		captureWebElementScreenshot(ID, "ID");
+		
 		return text;
 	}
 

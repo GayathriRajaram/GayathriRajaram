@@ -3,20 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Com.Salesforce.test.tests.AutomationScripts">
+      <class name="loginRunner.LoginRunner$RunnerCalculator">
         <methods>
-          <include name="forgotPassword4A"/>
-          <include name="setupBeforeTest"/>
-          <include name="loginErrorMessage01"/>
-          <include name="loginwithvalidCredentials02"/>
-          <include name="wrongCredential4B"/>
-          <include name="tearDown"/>
-          <include name="checkRememberMe03"/>
-          <include name="logoutFromSalesForce09"/>
-          <include name="teardownAfterTest"/>
-          <include name="setUp"/>
+          <include name="setUpClass"/>
+          <include name="runScenario" invocation-numbers="0 1"/>
+          <include name="tearDownClass"/>
         </methods>
-      </class> <!-- Com.Salesforce.test.tests.AutomationScripts -->
+      </class> <!-- loginRunner.LoginRunner$RunnerCalculator -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -41,9 +41,7 @@ public FileInputStream stream=null;
 		return value;
 	}
 	
-	public HashMap getAllPropertiesAsSet(Properties propertyFile) {
 		
-		return new HashMap(propertyFile);
-	}
+	
 
 }
